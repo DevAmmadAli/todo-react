@@ -1,0 +1,50 @@
+.authPage {
+    display: flex;
+    min-height: 100vh;
+}
+
+.imageContainer {
+    flex-basis: 50%;
+    background-color: #dfa5a53b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    object-fit: fill;
+    max-width: 100%;
+    height: auto;
+}
+
+.formContainer {
+    flex: 50%;
+    width: 200px;
+    padding: 20px 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formTitle {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.children {
+    min-width: 250px;
+}
+
+.footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}

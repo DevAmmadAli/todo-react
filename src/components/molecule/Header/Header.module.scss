@@ -1,0 +1,21 @@
+.header {
+    background-color: transparent;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 0;
+
+    .container {
+        max-width: var(--max-width);
+        width: calc(100% - 4rem);
+        margin: 0 auto;
+        vertical-align: middle;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        .logo {
+            display: inline-block;
+            padding-top: 0.8125rem;
+        }
+    }
+}

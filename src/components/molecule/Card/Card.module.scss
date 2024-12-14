@@ -1,0 +1,29 @@
+.card {
+    border-radius: 0.625rem;
+    padding: 5.6%;
+    background-color: var(--white);
+    flex-grow: 1;
+    overflow: hidden;
+    &.Flat {
+        border: 0.125rem solid #eee;
+    }
+    &.Raised {
+        box-shadow: 0.25rem 0.25rem 0.625rem var(--black25);
+    }
+    &.heading {
+        padding-top: 0;
+        .title {
+            padding: 0.75rem 0rem;
+            color: var(--white);
+            display: flex;
+            gap: 1rem;
+            flex-direction: row;
+            h4,
+            span {
+                color: var(--white);
+                font-weight: 900;
+                font-size: 2rem;
+            }
+        }
+    }
+}
